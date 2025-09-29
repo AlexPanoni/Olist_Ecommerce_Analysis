@@ -1,0 +1,21 @@
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data (do not commit large raw data)
+data/
+data_raw/
+Datasets/
+*.csv
+
+# Python envs
+env/
+venv/
+.venv/
+
+# Bytecode
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

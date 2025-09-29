@@ -1,0 +1,12 @@
+pandas
+numpy<2
+matplotlib
+seaborn
+scikit-learn
+nltk
+spacy
+unidecode
+wordcloud
+jupyter
+ipykernel
+tqdm
