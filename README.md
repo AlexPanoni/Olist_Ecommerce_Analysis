@@ -19,16 +19,21 @@ The full CSV files from Kaggle are **not** included. Download link: https://www.
 ```bash
 git clone https://github.com/AlexPanoni/Olist_Ecommerce_EDA.git
 cd Olist_Ecommerce_EDA
+```
 
 2. Create an environment and install dependencies:
+```bash
 python -m venv env
 # Windows
 env\Scripts\activate
 # macOS / Linux
 source env/bin/activate
 pip install -r requirements.txt
+```
 
-3. Place the dataset CSVs into a data/ folder (not included in repo).
+3. Place the dataset CSVs into a Datasets/ folder (not included in repo).
 
 4. Launch notebook:
+```bash
 jupyter notebook notebooks/EcommercePerformanceEDA.ipynb
+```
