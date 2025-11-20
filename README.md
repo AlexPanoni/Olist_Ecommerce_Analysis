@@ -101,7 +101,7 @@ source env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-4. Place the CSV files into the Datasets/ folder.
+4. Place the CSV files into the `Datasets/` folder.
 
 5. Launch the notebook:
 ```bash
@@ -110,6 +110,7 @@ jupyter notebook Notebooks/EcommercePerformanceEDA.ipynb
 
 ## ⭐ Project Structure
 
+```
 Olist_Ecommerce_EDA/
 │
 ├── Dashboard/
@@ -128,6 +129,7 @@ Olist_Ecommerce_EDA/
 │
 ├── README.md
 └── requirements.txt
+```
 
 
 
