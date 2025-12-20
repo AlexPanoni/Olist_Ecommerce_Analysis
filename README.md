@@ -1,4 +1,4 @@
-# 📦 Olist E-Commerce Analysis (EDA + Power BI Dashboard)
+# 📦 Olist E-Commerce Analysis (EDA + Power BI Dashboard + Full Report)
 
 This project explores the **Brazilian E-Commerce Public Dataset** by Olist, including a full **Exploratory Data Analysis (EDA)** in Python and a complete **interactive Power BI dashboard**.
 
