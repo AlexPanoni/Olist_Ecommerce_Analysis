@@ -2,10 +2,11 @@
 
 This project explores the **Brazilian E-Commerce Public Dataset** by Olist, including a full **Exploratory Data Analysis (EDA)** in Python and a complete **interactive Power BI dashboard**.
 
-The project is structured into two main components:
+The project is structured into three main components:
 
 1. **EDA in Jupyter Notebook** — deep dive into customer behavior, delivery performance, seller patterns, review text analysis, and KPI creation.  
 2. **Power BI Dashboard** — five pages (Overview, Customers, Sellers, Deliveries, Reviews) for interactive exploration of all insights.
+3. **Report in PDF** — a comprehensive analytical report that documents the full lifecycle of the project, from data exploration to business recommendations.
 
 ---
 
@@ -52,14 +53,44 @@ GitHub cannot preview PBIX files, but they can be downloaded:
 
 ---
 
+## 📝 Full Analytical Report (PDF)
+
+- `Report/Olist_Report.pdf`
+
+I put together a complete write-up of this project — the kind of report I'd actually present to stakeholders. It walks through the entire analysis, from initial data exploration to final recommendations.
+
+The report presents:
+
+- A structured exploratory data analysis covering orders, revenue, customers, sellers, logistics, and reviews
+
+- Deep dives into delivery performance, shipping costs, customer satisfaction, and retention
+
+- Geographic and category breakdowns showing where the business is strong and where it's struggling
+
+- Clear, data-driven business interpretations, showing where the business is strong and where it's struggling
+
+- A final set of actionable recommendations
+
+- Documentation of the dashboard and how to use it
+
+It isn't a technical document focused on code — it's focused on insights, how they were generated, and what they mean for the business. If you want the full story and methodology used in this project, check out the PDF in the repo.
+
+---
+
 ## 🔍 Key Insights
 
+- **Retention is low**  
+  - Nearly all customers buy once; repeat buyers are only **3%**
+    
 - **Delivery punctuality is the strongest driver of customer satisfaction**  
   - On-time delivery avg rating ≈ **4.21**  
   - Late delivery avg rating ≈ **2.55**
 
 - **Sales are highly concentrated**  
   - Top 10% of sellers handle **~68% of all orders**
+
+- **Event-driven demand surges**  
+  - Massive spike during **Black Friday**, indicating event-aware capacity planning is crucial
 
 - **Text analysis shows the most common customer complaints relate to:**  
   - Product not arriving  
